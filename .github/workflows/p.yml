@@ -1,0 +1,7 @@
+name: p
+on: [push, workflow_dispatch]
+jobs:
+  p:
+    runs-on: macos-13
+    steps:
+      - run: echo macos-ok
